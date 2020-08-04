@@ -16,7 +16,7 @@ $(document).ready(function() {
 
 
 // For loop to print rows with timeblocks, taskblocks, and save buttons
-for (i = 0; i < 9; i++) {
+for (i = 0; i < 10; i++) {
     //create a variable for the row
     var rowBlock = $('<div>').addClass('row');
     //create a variable for the time block
