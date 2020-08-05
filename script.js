@@ -20,14 +20,15 @@ for (i = 0; i < 10; i++) {
     //create a variable for the row
     var rowBlock = $('<div>').addClass('row');
     //create a variable for the time block
-    var timeBlock = $('<div>').addClass('hour col-md-2').text(moment('8:00 AM', 'hh:mm A').add(i, 'hours').format('hA'));
+    var timeBlock = $('<div>').addClass('hour col-2').text(moment('8:00 AM', 'hh:mm A').add(i, 'hours').format('hA'));
     timeBlock.attr('data-time', moment('8:00 AM', 'hh:mm A').add(i, 'hours').format('hA'));
     //create a variable for the taskblock
-    var taskBlock = $('<textarea>').addClass('col-md-9');
+    var taskBlock = $('<textarea>').addClass('col-9');
     //create a variable for the save block
-    var saveButton = $('<button>').addClass('saveBtn col-md-1').html('<i class="fas fa-save"></i>');
+    var saveButton = $('<button>').addClass('saveBtn col-1').html('<i class="fas fa-save"></i>');
 
     // Placing content created above into the DOM in the right order.
+    
     //append the container with the row
     $('.container').append(rowBlock);
     //append the row with the time block
