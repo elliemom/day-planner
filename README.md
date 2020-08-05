@@ -5,7 +5,7 @@ This application is a simple calander that allows the user to save events for ea
 Please visit [My Day Planner](https://elliemom.github.io/day-planner/) site!
 
 ## Screenshots
-![Day-Planner](/assets/Sample001.png)
+![Day-Planner](Assets/Sample001.png)
 
 ## Built with
 - [jQuery](https://api.jquery.com/)
