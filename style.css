@@ -34,14 +34,15 @@ textarea{
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid white;
+  background-color: #fddedc;
 }
 
 .hour {
   background-color: #fddedc;
   color: #000000;
   text-align: center;
-  
+  margin: auto;
 }
 
 .past {
